@@ -1,0 +1,98 @@
+h1 {
+	/*line-height: 100%;*/
+	/*font-size: 120%;*/
+	color: #FFFFFF;
+}
+
+
+
+.user-menu{
+	float: right;
+	margin-right: 10px;
+}
+.user-settings{
+	float: left;
+	margin-left: 10px;
+}
+
+.user-box-contain {
+	line-height: 150px;
+	height: 150px;
+}
+
+.friend-name{
+	float: right;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+.user-box {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #3498db;
+	height: 150px;
+	width: 100%; 
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 150px;
+}
+
+
+.location-box {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #2ecc71;
+	height: 150px;
+	width: 100%; 
+}
+				
+.add-box {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #8e44ad;
+	height: 150px;
+	width: 100%; 
+}
+				
+.invite-box {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #e74c3c;
+	height: 150px;
+	width: 100%; 
+}
+				
+.feedback-box {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #f1c40f;
+	height: 150px;
+	width: 100%; 
+}
+
+.img-sizer {
+	max-width: 80px;
+	margin-left: 3%;
+	margin-top: 8%;
+	/*float: left;*/
+	position: absolute;
+}
+
+.img-main-sizer {
+	float: left;
+	max-width: 80px;
+	margin-left: 3%;
+	margin-top: 8%;
+	/*float: left;*/
+	position: absolute;
+}
+/*
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+
+}*/
