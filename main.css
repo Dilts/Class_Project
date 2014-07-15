@@ -26,19 +26,7 @@ h1 {
 }
 
 
-.box-a(@ratio; @ratio-y) {
-	-webkit-transform: scale(@ratio, @50px);
-	-ms-transform: scale(@ratio, @50px); // IE9 only
-	transform: scale(@ratio, @50px);
-}
 
-.box-a{	text-align: center;
-	color: #FFFFFF;
-	background-color: #2ecc71;
-	height: 300px;
-	width: 100%; 
-
-}
 
 
 
@@ -55,10 +43,10 @@ h1 {
 }
 
 
-.location-box {
+.friend-box {
 	text-align: center;
 	color: #FFFFFF;
-	background-color: #2ecc71;
+	/*background-color: #2ecc71;*/
 	height: 150px;
 	width: 100%; 
 }
@@ -97,14 +85,6 @@ h1 {
 	position: absolute;
 }
 
-.img-resizer {
-	max-width: 40px;
-	margin-left: 5px;
-	margin-top: 15px;
-	float: left;
-	position: absolute;
-}
-
 
 
 
@@ -116,6 +96,48 @@ h1 {
 	/*float: left;*/
 	position: absolute;
 }
+
+
+	/*JS add classes*/
+.img-resizer {
+	max-width: 40px;
+	margin-left: 5px;
+	margin-top: 15px;
+	float: left;
+	position: absolute;
+}
+
+
+
+.box-a{	text-align: center;
+	color: #FFFFFF;
+	background-color: #2ecc71;
+	height: 300px;
+	width: 100%; 
+
+}
+
+.reset-friend-name {
+	/*float: left;*/
+	display: inline;
+	font-size: 160%;
+	margin-top: 10px;
+	font-weight: bold;
+	/*margin-left: 50px;*/
+	/*position: absolute;	*/
+}
+
+.share-buttons {
+	margin-top: 6%;
+}
+.top-margin {
+	margin-top: 2%;
+}
+
+.share-items {
+	/*margin-top: 20%;*/
+}
+
 /*
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
 
