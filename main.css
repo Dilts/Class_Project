@@ -138,6 +138,19 @@ h1 {
 	/*margin-top: 20%;*/
 }
 
+
+/*This is for the form*/
+
+.newbox {
+	height: 300px;
+	width: 100%;
+	background-color: blue;
+}
+
+.addnew {
+	
+}
+
 /*
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
 
